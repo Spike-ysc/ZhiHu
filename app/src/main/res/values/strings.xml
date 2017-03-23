@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ZhiHu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ajiasha">阿加莎·玛丽·克莱丽莎·克里斯蒂女爵士(1890年9月15日－1976年1月12日），
+        另外又称马洛温爵士夫人，是英国侦探小说作家。玛丽·维斯马科特则是她写浪漫爱情小说所用的笔名。
+据吉尼斯世界纪录统计，阿加莎·克里斯蒂是人类史上最畅销的著书作家。而将所有形式的著作算入，只有圣经与威廉·莎士比亚的著作的总销售量在她之上。
+        至今其著作曾翻译成超过103种语言，总销突破20亿本。[1][2] 在法国，截至2003年，她一共卖出4,000万本法文版的著作，为法国书籍销量纪录保持者，远胜于第二位法国大文豪左拉的2,200万本。
+      </string>
 </resources>
