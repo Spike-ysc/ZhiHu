@@ -6,7 +6,9 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="8dp"
-    android:paddingBottom="8dp">
+    android:paddingBottom="8dp"
+    android:background="@color/white"
+    android:elevation="1dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -23,6 +25,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textColor="@color/topicColor"
             android:text="来自话题：计算机"
             android:textSize="14sp"/>
         <ImageView
@@ -48,7 +51,7 @@
             android:layout_marginBottom="2dp"
             android:textStyle="bold"
             android:textSize="16sp"
-            android:textColor="#212121"/>
+            android:textColor="@color/questionColor"/>
         <TextView
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
@@ -57,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:textSize="14sp"
-            android:textColor="#212121"
+            android:textColor="@color/answerColor"
             android:text="@string/ajiasha"/>
 
     </LinearLayout>
@@ -68,16 +71,19 @@
             android:id="@+id/list_agree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/agreeColor"
             android:text="396赞同· "/>
         <TextView
             android:id="@+id/list_comment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/agreeColor"
             android:text="68评论· "/>
         <TextView
             android:id="@+id/list_attention"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/agreeColor"
             android:text="关注问题"/>
     </LinearLayout>
 </LinearLayout>

@@ -8,6 +8,8 @@
     <ListView
         android:id="@+id/main_ltem"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent"
+        android:divider="@color/dividerColor"
+        android:dividerHeight="10dp"></ListView>
 
 </FrameLayout>

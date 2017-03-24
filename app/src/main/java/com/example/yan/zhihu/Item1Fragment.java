@@ -42,7 +42,7 @@ public class Item1Fragment extends Fragment {
                 "为什么机器学习的框架都偏向于python",
 
                 "阿加莎·玛丽·克莱丽莎·克里斯蒂女爵士(1890年9月15日－1976年1月12日），\n" +
-                        "        另外又称马洛温爵士夫人，是英国侦探小说作家。玛丽·维斯马科特则是她写浪漫爱情小说所用的笔名。"
+                        "则是她写浪漫爱情小说所用的笔名。"
                 , "230赞同· ","68评论· ","关注问题");
         messagesList.add(frist);
         ListMessage second = new ListMessage(R.drawable.topic, "来自话题",
