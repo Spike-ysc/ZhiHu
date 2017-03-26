@@ -19,6 +19,7 @@ public class Item1Fragment extends Fragment {
     private List<ListMessage> messagesList = new ArrayList<>();
 
 
+
     public Item1Fragment() {
         // Required empty public constructor
     }
