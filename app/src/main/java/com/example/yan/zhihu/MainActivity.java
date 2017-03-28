@@ -1,6 +1,7 @@
 package com.example.yan.zhihu;
 
 import android.content.Context;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -15,11 +16,13 @@ import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 public class MainActivity extends AppCompatActivity implements BottomNavigationBar.OnTabSelectedListener {
 
     private BottomNavigationBar bar;
+    private FloatingActionButton floating;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        floating = (FloatingActionButton) findViewById(R.id.floating);
         bar = (BottomNavigationBar) findViewById(R.id.main_bar);
         bar.setMode(BottomNavigationBar.MODE_FIXED)
                 .setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_DEFAULT);
@@ -32,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationB
                 .setFirstSelectedPosition(0)
                 .initialise();
         bar.setTabSelectedListener(this);
+        bar.setFab(floating);
     }
 
     @Override
@@ -71,4 +75,5 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationB
     public void onTabReselected(int position) {
 
     }
+
 }

@@ -5,11 +5,11 @@
     tools:context="com.example.yan.zhihu.Item1Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <ListView
+    <com.example.yan.zhihu.MyListView
         android:id="@+id/main_ltem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@color/dividerColor"
-        android:dividerHeight="10dp"></ListView>
+        android:dividerHeight="10dp"></com.example.yan.zhihu.MyListView>
 
 </FrameLayout>
