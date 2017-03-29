@@ -2,12 +2,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.yan.zhihu.Item3Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+   <android.support.design.widget.TabLayout
+       android:id="@+id/tablayout3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/blue"
+       app:tabTextColor="@color/grey"
+       app:tabIndicatorColor="@color/white"
+       app:tabSelectedTextColor="@color/white">
+       <!--<android.support.v4.view.ViewPager-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="0dp"-->
+           <!--android:layout_weight = "1"/>-->
+   </android.support.design.widget.TabLayout>
 
 </FrameLayout>

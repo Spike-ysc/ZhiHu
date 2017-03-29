@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.yan.zhihu.MainActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/myToolBar"
+            android:layout_width="match_parent"
+            android:background="@color/blue"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways">
+            <ImageView
+                android:src="@drawable/select1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
 
 
         <!--<LinearLayout-->
@@ -24,7 +40,8 @@
     <!--</android.support.v4.widget.NestedScrollView>-->
     <android.support.v4.widget.NestedScrollView
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"    >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
